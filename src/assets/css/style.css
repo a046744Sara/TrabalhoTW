@@ -30,7 +30,14 @@ body {
   background-color: #2c3e50;
   color: #fff;
   border-bottom: 5px solid #e67e22;
-  position: relative; /* posicionamento (requisito) */
+  position: relative;
+  .site-header {
+  background-image: url("../img/pattern.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+ /* posicionamento (requisito) */
 }
 
 /* Substituição de um elemento por imagem (requisito) */
