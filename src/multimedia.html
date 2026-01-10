@@ -38,8 +38,8 @@
       </p>
 
       <p>
-        A escolha do formato multimédia deve sempre servir o objetivo da comunicação,
-        reforçando a identidade visual e emocional da marca.
+        A escolha do formato multimédia deve servir o objetivo da comunicação e reforçar
+        a identidade visual e emocional da marca.
       </p>
     </section>
 
@@ -55,27 +55,26 @@
     </section>
 
     <section>
-      <h3>Multimédia em Tecnologias Web</h3>
+      <h3>Dados estruturados em Tecnologias Web</h3>
 
       <p>
-        Em tecnologias web, conteúdos multimédia podem ser organizados através de
-        dados estruturados. O XML permite estruturar a informação, o XSD valida essa
-        estrutura e o JavaScript permite apresentar os dados de forma dinâmica.
+        Neste projeto, os conteúdos multimédia são representados através de dados
+        estruturados em XML. O ficheiro XML define a informação, o XSD valida a estrutura
+        e o JavaScript permite apresentar os dados dinamicamente no website.
       </p>
 
       <p>
-        Neste projeto existem os ficheiros
-        <a href="dados.xml">dados.xml</a> e
-        <a href="dados.xsd">dados.xsd</a>,
-        que serão utilizados numa fase posterior com JavaScript.
+        Ficheiros utilizados:
+        <a href="dados.xml">dados.xml</a> ·
+        <a href="dados.xsd">dados.xsd</a>
       </p>
     </section>
 
     <section>
-      <h3>Exemplo de recursos multimédia</h3>
+      <h3>Recursos multimédia (dados do XML)</h3>
 
       <table>
-        <caption>Recursos multimédia (exemplo)</caption>
+        <caption>Recursos multimédia carregados dinamicamente</caption>
 
         <thead>
           <tr>
@@ -86,30 +85,14 @@
           </tr>
         </thead>
 
-        <tbody>
-          <tr>
-            <td>r01</td>
-            <td>Imagem</td>
-            <td>Logótipo (variações)</td>
-            <td>Website e redes sociais</td>
-          </tr>
-          <tr>
-            <td>r02</td>
-            <td>Vídeo</td>
-            <td>Vídeo institucional curto</td>
-            <td>Apresentação da marca</td>
-          </tr>
-          <tr>
-            <td colspan="2">r03–r04</td>
-            <td>Áudio + Animação</td>
-            <td>Identidade sonora e motion</td>
-          </tr>
+        <tbody id="corpo-tabela">
+          <!-- As linhas desta tabela são geradas pelo JavaScript a partir do XML -->
         </tbody>
 
         <tfoot>
           <tr>
             <td colspan="4">
-              Tabela com thead, tbody, tfoot e uso de colspan.
+              Tabela preenchida dinamicamente através de JavaScript e dados XML.
             </td>
           </tr>
         </tfoot>
@@ -174,5 +157,8 @@
       </address>
     </div>
   </footer>
+
+  <!-- JavaScript -->
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
