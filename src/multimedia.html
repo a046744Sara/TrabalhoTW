@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="pt">
+<html lang="pt-PT">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Multimédia — Trabalho TW</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <title>Multimédia — TrabalhoTW</title>
 </head>
 <body><!doctype html>
 <html lang="pt">
@@ -16,17 +16,25 @@
 </head>
 
 <body>
-  <header>
-    <h1>Comunicação Visual e Identidade de Marca em Multimédia</h1>
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
 
-    <nav class="site-nav" aria-label="Navegação principal">
-      <a href="index.html">Início</a> |
-      <a href="estrategia.html">Estratégia</a> |
-      <a href="identidade.html">Identidade Visual</a> |
-      <a class="is-active" href="multimedia.html">Multimédia</a>
-    </nav>
+  <header class="site-header">
+    <div class="container">
+      <p class="brand-badge">Grupo 6</p>
+      <h1 class="site-title">Comunicação Visual e Identidade de Marca em Multimédia</h1>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="identidade.html">Identidade Visual</a></li>
+          <li><a href="estrategia.html">Estratégia</a></li>
+          <li><a class="is-active" href="multimedia.html">Multimédia</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+<<<<<<< HEAD
   <main>
     <h2>Multimédia</h2>
 
@@ -83,11 +91,134 @@
       <li>W3C. <em>XML e Tecnologias Web</em>.</li>
       <li>MDN Web Docs. <em>JavaScript e Conteúdos Dinâmicos</em>.</li>
     </ul>
+=======
+  <main id="conteudo" class="container">
+    <section>
+      <h2>Multimédia</h2>
+      <p>
+        No digital, a marca comunica através de formatos diferentes: imagem, texto, vídeo, áudio e animação.
+        A escolha do formato deve servir o objetivo e não o contrário.
+      </p>
+
+      <h3>Formatos e exemplos</h3>
+      <ul>
+        <li><strong>Imagem</strong>: logótipos, fotografia, ilustração, infografia.</li>
+        <li><strong>Vídeo</strong>: demonstrações, storytelling, anúncios curtos.</li>
+        <li><strong>Áudio</strong>: identidade sonora, podcasts, spots.</li>
+        <li><strong>Animação</strong>: motion design, micro-interações.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Dados estruturados</h2>
+      <p>
+        Nesta fase, o repositório já inclui um exemplo de <strong>dados.xml</strong> e o respetivo
+        <strong>dados.xsd</strong> para validação. A integração dinâmica com JavaScript será feita depois.
+      </p>
+
+      <p>
+        Ficheiros:
+        <a href="dados.xml">dados.xml</a> ·
+        <a href="dados.xsd">dados.xsd</a>
+      </p>
+
+      <table>
+        <caption>Recursos multimédia (exemplo — será alimentado pelo XML mais tarde)</caption>
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Recurso</th>
+            <th scope="col">Uso</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>r01</td>
+            <td>Imagem</td>
+            <td>Logótipo (variações)</td>
+            <td>Website e redes sociais</td>
+          </tr>
+          <tr>
+            <td>r02</td>
+            <td>Vídeo</td>
+            <td>Vídeo curto (marca)</td>
+            <td>Apresentação / campanha</td>
+          </tr>
+          <tr>
+            <td colspan="2">r03–r04</td>
+            <td>Áudio + Animação</td>
+            <td>Identidade sonora e motion</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Tabela com thead/tbody/tfoot e exemplo de colspan.</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section>
+      <h2>Receber novidades</h2>
+      <p>
+        Exemplo simples de formulário para um site educativo (os contactos servem para receber novidades do projeto).
+      </p>
+
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Subscrever</legend>
+
+          <div class="form-row">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="interesse">Interesse principal</label>
+            <select id="interesse" name="interesse">
+              <option value="identidade">Identidade Visual</option>
+              <option value="estrategia">Estratégia</option>
+              <option value="multimedia">Multimédia</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="mensagem">Mensagem (opcional)</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreve aqui..."></textarea>
+          </div>
+
+          <div class="form-row">
+            <label>
+              <input type="checkbox" name="consentimento" value="sim" required>
+              Aceito receber novidades do projeto.
+            </label>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </section>
+>>>>>>> aab24428060447310cf844c1d939081ecb2ed265
   </main>
 
-  <footer>
-    <p>Grupo 6 — Tecnologias Web</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Grupo 6 — Tecnologias Web (2025/26)</p>
+      <address>
+        Iria Mirley de Barros Monteiro · Nicole de Campos Fernandes · Sara Cantarelo Amaral
+      </address>
+    </div>
   </footer>
 </body>
+<<<<<<< HEAD
 </html>
  
+=======
+</html>
+>>>>>>> aab24428060447310cf844c1d939081ecb2ed265
