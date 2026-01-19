@@ -1,107 +1,132 @@
-# C1 : Comunicação Visual e Identidade de Marca em Multimédia
-
-## Descrição
-Este trabalho tem como objetivo o desenvolvimento de um website dedicado à explicação de
-como a comunicação visual e os recursos multimédia contribuem para a construção e comunicação
-da identidade de uma marca.
-
-Num contexto digital cada vez mais competitivo, a forma como as marcas se apresentam
-visualmente assume um papel central na perceção do público, influenciando a forma como
-comunicam, persuadem e se diferenciam. O website aborda estes conceitos de forma clara,
-estruturada e acessível.
-
-## Objetivo
-Demonstrar que a identidade de marca não resulta de um único elemento isolado, mas sim da
-articulação entre identidade visual, estratégia de comunicação e utilização de conteúdos
-multimédia em ambientes digitais.
-
-## Público-alvo
-O website destina-se a:
-- Estudantes de multimédia, design e comunicação;
-- Profissionais ou interessados em branding e comunicação digital;
-- Público em geral interessado em compreender a construção da identidade de marca.
-
-## Estrutura do Website (Sitemap)
-O website é composto por quatro páginas principais:
-1. Início — Introdução ao tema e objetivos do projeto;
-2. Estratégia — Importância do planeamento na comunicação de marca;
-3. Identidade Visual — Elementos gráficos que constroem a identidade da marca;
-4. Multimédia — Integração de conteúdos multimédia e tecnologias web.
-
-## Grupo 6
-- Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
-- Outros elementos do grupo
+# Relatório do Projeto  
+## Comunicação Visual e Identidade de Marca em Multimédia
 
 ---
-[< Previous] | [^ Main](../../../) | [Next >](c2.md)
-:--- | :---: | ---:
 
-# C2 : Conteúdos e Conceitos
+## 1. Apresentação do Projeto
 
-## Identidade Visual
-A identidade visual corresponde ao conjunto de elementos gráficos que representam
-visualmente uma marca, como o logótipo, as cores, a tipografia e o estilo gráfico.
-Estes elementos permitem criar reconhecimento, coerência e diferenciação no mercado.
+### Proposta de Trabalho
+O presente projeto tem como objetivo o desenvolvimento de um website dedicado à
+explicação da importância da comunicação visual e da multimédia na construção da
+identidade de uma marca. Num contexto digital cada vez mais competitivo, a forma
+como uma marca se apresenta visualmente influencia diretamente a perceção do
+público, a sua credibilidade e a sua capacidade de se diferenciar.
 
-Uma identidade visual bem definida facilita a identificação da marca pelo público
-e reforça a sua credibilidade e consistência em diferentes plataformas.
+O website foi concebido como uma plataforma informativa e educativa, abordando
+conceitos fundamentais como identidade visual, estratégia de comunicação e
+utilização de conteúdos multimédia em ambientes digitais.
 
-## Estratégia
-A estratégia de comunicação define como a marca se posiciona e comunica com o seu público.
-Inclui a definição de objetivos, público-alvo, mensagem e meios de comunicação.
+### Descrição Geral do Projeto
+Recorrendo às tecnologias **HTML, CSS, JavaScript e XML**, foi desenvolvida uma
+interface simples, intuitiva e responsiva, focada na organização clara da informação
+e numa boa experiência de utilização.
 
-A estratégia serve de base a todas as decisões visuais e multimédia, garantindo que
-a comunicação é coerente, eficaz e adequada ao contexto digital.
+O website apresenta conteúdos estruturados que explicam como os diferentes
+elementos visuais e multimédia contribuem para a construção de uma identidade de
+marca coerente e eficaz.
 
-## Multimédia
-A multimédia consiste na integração de diferentes tipos de conteúdos, como texto,
-imagem, vídeo, áudio e animação, num único ambiente digital.
+---
 
-Na comunicação de marca, a multimédia permite criar experiências mais dinâmicas e
-envolventes, aumentando o impacto da mensagem e a interação com o utilizador.
+## 2. Interface com o Utilizador
+
+### Sketches
+Na fase inicial do projeto foram desenvolvidos sketches das principais páginas do
+website. Estes esboços permitiram planear a disposição dos elementos, a hierarquia
+da informação e a navegação entre páginas, antes da implementação técnica.
+
+Os sketches representam:
+- Cabeçalho com título do site e menu de navegação;
+- Área principal de conteúdo, adaptada ao tema de cada página;
+- Blocos de texto, listas, tabelas e formulários;
+- Estrutura comum entre páginas para garantir consistência visual.
+
+### Wireframes
+Com base nos sketches iniciais, foram definidos wireframes que apresentam uma
+versão mais estruturada do layout, focando-se na organização dos conteúdos e na
+experiência do utilizador.
+
+O layout foi desenvolvido segundo a abordagem **mobile first**, garantindo que o
+website se adapta corretamente a diferentes tamanhos de ecrã.
+
+### Sitemap
+A estrutura do website é simples e hierárquica, permitindo uma navegação clara e
+intuitiva:
+
+- **Início** – Introdução ao tema e objetivos do projeto  
+- **Identidade Visual** – Conceitos e elementos gráficos da marca  
+- **Estratégia** – Planeamento da comunicação e posicionamento  
+- **Multimédia** – Integração de conteúdos multimédia e tecnologias web  
+
+Esta organização facilita o acesso à informação e melhora a experiência do
+utilizador.
+
+### Resultado Final
+O design final do website é responsivo, acessível e coerente com os sketches e
+wireframes iniciais. Foram utilizadas cores e tipografia simples, garantindo boa
+legibilidade e consistência visual em todas as páginas.
+
+---
+
+## 3. Produto – Website
+
+### Produto
+O produto desenvolvido é um website informativo sobre comunicação visual e
+identidade de marca em multimédia. O site apresenta conteúdos teóricos, exemplos
+práticos e uma estrutura clara que facilita a compreensão dos temas abordados.
+
+### Instalação e Configuração
+O projeto pode ser executado localmente através da abertura dos ficheiros HTML num
+navegador web moderno. Para uma melhor experiência, recomenda-se a utilização de
+navegadores atualizados e, opcionalmente, um servidor local.
+
+### Utilização
+Não é necessária autenticação para aceder aos conteúdos do website. O utilizador
+pode navegar livremente entre as páginas através do menu principal.
+
+### Ajuda à Navegação
+- **Cores e tipografia**: escolhidas para garantir clareza e leitura confortável;
+- **Menus de navegação**: localizados no topo do site, permitindo acesso rápido às
+  principais secções;
+- **Estrutura visual**: conteúdos organizados em secções bem definidas.
+
+### Validação de Formulários
+Sempre que presentes, os formulários utilizam validações básicas para garantir que
+os campos obrigatórios são preenchidos corretamente antes do envio.
+
+### Validação HTML5 e CSS3
+O código HTML e CSS foi validado utilizando as ferramentas de validação do **W3C**,
+garantindo conformidade com os padrões web e boa compatibilidade entre navegadores.
+
+### Detalhes de Implementação
+- Cumprimento dos objetivos mínimos definidos para o projeto;
+- Utilização de layout responsivo;
+- Integração de conteúdos multimédia e estruturação da informação com XML;
+- Organização clara do código e dos ficheiros do projeto.
+
+---
+
+## 4. Presentation – Apresentação
+
+### Elementos da Apresentação
+Para a apresentação do projeto foram utilizados diferentes formatos multimédia,
+incluindo:
+- Apresentação em slides, resumindo os principais pontos do trabalho;
+- Demonstração do website, mostrando a navegação e as funcionalidades
+  implementadas.
+
+Estes elementos permitiram comunicar o projeto de forma clara, visual e dinâmica.
+
+---
 
 ## Conclusão
-A construção da identidade de marca resulta da combinação entre identidade visual,
-estratégia de comunicação e utilização adequada da multimédia. Estes elementos,
-quando integrados de forma coerente, permitem uma comunicação eficaz e consistente
-nos diferentes meios digitais.
+O projeto **Comunicação Visual e Identidade de Marca em Multimédia** demonstra a
+importância da integração entre identidade visual, estratégia e multimédia na
+construção de uma comunicação eficaz.
 
-## Verificação de Requisitos
-- ✔ Tema claramente definido
-- ✔ Objetivo do projeto apresentado
-- ✔ Público-alvo identificado
-- ✔ Estrutura do website com quatro páginas
-- ✔ Conceitos de Identidade Visual, Estratégia e Multimédia abordados
-- ✔ Relação entre comunicação visual e multimédia explicada
+Através do desenvolvimento do website, foi possível aplicar conceitos teóricos em
+contexto prático, utilizando tecnologias web atuais e boas práticas de design e
+usabilidade.
 
----
-[< Previous](c1.md) | [^ Main](../../../) | [Next >](c3.md)
-:--- | :---: | ---:
-
-# C3 : Produto
-
-## Produto / Website
-O produto desenvolvido é um website informativo e educativo dedicado à comunicação visual
-e identidade de marca em multimédia. O site apresenta conteúdos teóricos e exemplos
-relacionados com branding, estratégia e tecnologias web.
-
-## Para quem é
-O website destina-se a estudantes e profissionais das áreas de multimédia, design e
-comunicação, bem como a qualquer utilizador interessado em compreender como as marcas
-se constroem visualmente no meio digital.
-
-## Páginas do Website
-O website é composto por quatro páginas principais:
-- Início
-- Estratégia
-- Identidade Visual
-- Multimédia
-
-## Objetivo do Website
-O objetivo do website é explicar, de forma clara e estruturada, como a comunicação visual
-e os recursos multimédia contribuem para a construção, comunicação e fortalecimento da
-identidade de uma marca no contexto digital.
-
----
-[< Previous](c2.md) | [^ Main](../../../) | [Next >](c4.md)
-:--- | :---: | ---:
+Como trabalho futuro, o projeto poderá ser expandido com mais exemplos
+interativos, integração de APIs externas e conteúdos multimédia mais avançados,
+reforçando ainda mais a experiência do utilizador.
